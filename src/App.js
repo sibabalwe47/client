@@ -2,13 +2,11 @@ import logo from "./logo.svg";
 import "./App.css";
 
 /*
- * Views
+ ******  Views *******
  */
 
 import Login from "./views/Login";
 
-function App() {
-  return <Login />;
-}
+const App = () => <Login />;
 
 export default App;
